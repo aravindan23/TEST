@@ -2,11 +2,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.test</groupId>
 	<artifactId>maven-release-plugin-example</artifactId>
-	<version>0.29-SNAPSHOT</version>
+	<version>0.28</version>
 	<scm>
 		<url>https://github.com/aravindan23/TEST</url>
 		<connection>scm:git:https://github.com/aravindan23/TEST.git</connection>
-    <tag>HEAD</tag>
+    <tag>v0.28</tag>
   </scm>
 	<distributionManagement>
     <repository>
