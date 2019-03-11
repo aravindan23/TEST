@@ -1,10 +1,19 @@
-FROM python:3-alpine
-RUN curl -fsSLO https://get.docker/builds/Linux/x86_64/docker-17.04.0-ce.tgz \
+version: '3'
 
-  && tar xzvf docker-17.04.0-ce.tgz \
-
-  && mv docker/docker /usr/local/bin \
-
-  && rm -r docker docker-17.04.0-ce.tgz
-WORKDIR /root
-EXPOSE 8000
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.3.2
+    environment:
+      - cluster.name=docker-cluster
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - "9200:9200"
+  kibana:
+    image: docker.elastic.co/kibana/kibana:6.3.2
+    ports:
+      - "5601:5601"
