@@ -7,7 +7,7 @@
 <scm>
  <url>https://github.com/aravindan23/TEST</url>
  <connection>scm:git:https://github.com/aravindan23/TEST.git</connection>
- <tag>HEAD</tag>
+ <tag>mast2</tag>
 </scm>
 	
 <distributionManagement>
