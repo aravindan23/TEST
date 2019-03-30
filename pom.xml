@@ -64,6 +64,6 @@
 	</build>
     <modules>
         <module>maven-modules</module>
-        <module>maven-release-plugin-example<module>
+        <module>maven-release-plugin-example</module>
 </modules>
 </project>
