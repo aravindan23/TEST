@@ -69,7 +69,4 @@
 		</plugins>
 		 
 	</build>
-	<modules>
-        <module>maven-modules</module>
-    </modules>
 </project>
