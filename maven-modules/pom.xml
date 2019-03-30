@@ -3,6 +3,14 @@
 	<groupId>com.test</groupId>
 	<artifactId>maven-modules</artifactId>
 	<version>0.0.19-SNAPSHOT</version>
+	<description>mvn-rel-plugs</description>
+	
+ <parent>
+        <groupId>test</groupId>
+        <artifactId>maven-release-plugin-example</artifactId>
+        <version>0.0.19-SNAPSHOT</version>
+        <relativePath>..</relativePath>
+    </parent>	
 	
 <scm>
  <url>https://github.com/aravindan23/TEST</url>
