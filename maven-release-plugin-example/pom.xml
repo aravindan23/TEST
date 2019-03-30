@@ -11,7 +11,7 @@
   <tag>HEAD</tag>
   </scm>
 	 <parent>
-        <groupId>test</groupId>
+        <groupId>com.test</groupId>
         <artifactId>maven-release-plugin-example</artifactId>
         <version>0.0.19-SNAPSHOT</version>
         <relativePath>..</relativePath>
