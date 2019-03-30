@@ -9,6 +9,12 @@
  <connection>scm:git:https://github.com/aravindan23/TEST.git</connection>
   <tag>HEAD</tag>
   </scm>
+	 <parent>
+        <groupId>test</groupId>
+        <artifactId>TEST</artifactId>
+        <version>0.0.19-SNAPSHOT</version>
+        <relativePath>..</relativePath>
+</parent> 
 	
 <distributionManagement>
     <repository>
@@ -62,4 +68,7 @@
 		</plugins>
 		 
 	</build>
+	<modules>
+        <module>maven-modules</module>
+    </modules>
 </project>
