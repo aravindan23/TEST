@@ -7,7 +7,7 @@
 	
  <parent>
         <groupId>test</groupId>
-        <artifactId>TEST</artifactId>
+        <artifactId>maven-release-plugin-example</artifactId>
         <version>0.0.19-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>	
