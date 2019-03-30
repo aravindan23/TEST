@@ -14,7 +14,6 @@
         <groupId>com.test</groupId>
         <artifactId>maven-release-plugin</artifactId>
         <version>0.0.19-SNAPSHOT</version>
-        <relativePath>..</relativePath>
 </parent> 
 	
 <distributionManagement>
