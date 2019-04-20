@@ -18,6 +18,7 @@ System.out.print("HELLOController");
 		System.out.print("HELLOController10");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		System.out.print("HELLOController11");
 		System.out.print("HELLOController12");
                 System.out.print("HELLOController13");
@@ -30,5 +31,16 @@ System.out.print("HELLOController");
 >>>>>>> 57b6987... changes
 		System.out.print("print"+a);
 		System.out.print("print"+b);
+=======
+		System.out.print("HELLOController11");
+		System.out.print("HELLOController12");
+		System.out.print("HELLOController13");
+		System.out.print("HELLOController14");
+                System.out.print("HELLOController15");
+                System.out.print("HELLOController16");
+		System.out.print("print"+a);
+		System.out.print("print"+b);
+		System.out.print("print"+c+d);
+>>>>>>> d21ffd17f489e324186cbbc52a76521a179d11ab
 	}
 }
