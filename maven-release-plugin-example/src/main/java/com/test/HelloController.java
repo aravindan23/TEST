@@ -5,7 +5,7 @@ public class HelloController {
 	public static void main(String[] args) {
 System.out.print("HELLOController");
 		Scanner sc=new Scanner(System.in);
-		int a=sc.nextInt;
+		int a=sc.nextInt();
 		System.out.print("HELLOController2");
 		System.out.print("HELLOController3");
 		System.out.print("HELLOController4");
@@ -17,5 +17,8 @@ System.out.print("HELLOController");
 		System.out.print("HELLOController10");
 		System.out.print("HELLOController11");
 		System.out.print("HELLOController12");
+		System.out.print("HELLOController13");
+		System.out.print("HELLOController14");
+		System.out.print("print"+a);
 	}
 }
