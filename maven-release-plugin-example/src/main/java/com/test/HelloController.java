@@ -5,8 +5,12 @@ public class HelloController {
 	public static void main(String[] args) {
 System.out.print("HELLOController");
 		Scanner sc=new Scanner(System.in);
+<<<<<<< HEAD
 		int a=sc.nextInt();
 		int b=sc.nextInt();
+=======
+		int a=sc.nextInt;
+>>>>>>> updated
 		System.out.print("HELLOController2");
 		System.out.print("HELLOController3");
 		System.out.print("HELLOController4");
@@ -16,6 +20,7 @@ System.out.print("HELLOController");
 		System.out.print("HELLOController8");
 		System.out.print("HELLOController9");
 		System.out.print("HELLOController10");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42,5 +47,9 @@ System.out.print("HELLOController");
 		System.out.print("print"+b);
 		System.out.print("print"+c+d);
 >>>>>>> d21ffd17f489e324186cbbc52a76521a179d11ab
+=======
+		System.out.print("HELLOController11");
+		System.out.print("HELLOController12");
+>>>>>>> updated
 	}
 }
