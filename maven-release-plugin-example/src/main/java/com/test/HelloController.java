@@ -17,12 +17,17 @@ System.out.print("HELLOController");
 		System.out.print("HELLOController9");
 		System.out.print("HELLOController10");
 <<<<<<< HEAD
+<<<<<<< HEAD
 		System.out.print("HELLOController11");
 		System.out.print("HELLOController12");
                 System.out.print("HELLOController13");
                 System.out.print("HELLOController14");
 =======
 >>>>>>> 81233dd... delete
+=======
+		System.out.print("HELLOController11");
+		System.out.print("HELLOController12");
+>>>>>>> 57b6987... changes
 		System.out.print("print"+a);
 		System.out.print("print"+b);
 	}
